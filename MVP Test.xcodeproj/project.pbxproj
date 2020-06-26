@@ -27,6 +27,7 @@
 		E22A9EAB24A61FBB001A21B9 /* UserDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22A9EA924A61FBB001A21B9 /* UserDetailsViewController.xib */; };
 		E22A9EAD24A62022001A21B9 /* UserDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22A9EAC24A62022001A21B9 /* UserDetailsPresenter.swift */; };
 		E22A9EAF24A62030001A21B9 /* UserDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22A9EAE24A62030001A21B9 /* UserDetailsRouter.swift */; };
+		E22A9EB124A632EB001A21B9 /* UserDetailsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22A9EB024A632EB001A21B9 /* UserDetailsConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		E22A9EA924A61FBB001A21B9 /* UserDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailsViewController.xib; sourceTree = "<group>"; };
 		E22A9EAC24A62022001A21B9 /* UserDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsPresenter.swift; sourceTree = "<group>"; };
 		E22A9EAE24A62030001A21B9 /* UserDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsRouter.swift; sourceTree = "<group>"; };
+		E22A9EB024A632EB001A21B9 /* UserDetailsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsConfigurator.swift; sourceTree = "<group>"; };
 		FD35AFEF098E0BB8BBD61743 /* Pods_MVP_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVP_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -198,6 +200,7 @@
 				E22A9EAC24A62022001A21B9 /* UserDetailsPresenter.swift */,
 				E22A9EAE24A62030001A21B9 /* UserDetailsRouter.swift */,
 				E22A9EA924A61FBB001A21B9 /* UserDetailsViewController.xib */,
+				E22A9EB024A632EB001A21B9 /* UserDetailsConfigurator.swift */,
 			);
 			path = UserDetails;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				E22A9E7324A607A1001A21B9 /* AppDelegate.swift in Sources */,
 				E22A9E9224A6097D001A21B9 /* UsersViewController.swift in Sources */,
 				E22A9E9F24A60D43001A21B9 /* UsersRouter.swift in Sources */,
+				E22A9EB124A632EB001A21B9 /* UserDetailsConfigurator.swift in Sources */,
 				E22A9E9624A60A5E001A21B9 /* UserDataSourceAndDelegate.swift in Sources */,
 				E22A9EA524A61167001A21B9 /* Model.swift in Sources */,
 				E22A9EAF24A62030001A21B9 /* UserDetailsRouter.swift in Sources */,

@@ -19,10 +19,10 @@ class UsersRouter{
 }
 extension UsersRouter:IUsersRouter {
     func navigateToUserDetailsScreen(from view: IUsersView?, user: User) {
-        let userDetails = UserDetailsRouter.createUserDetailsVC(user: user)
-        if let viewController = view as? UIViewController {
-                  viewController.navigationController?.pushViewController(userDetails, animated: true)
-              }
+        let userDetails = UserDetailsViewController()
+        UserDetailsConfigurator.configure(userDetails: userDetails, user: user)
+        let usersVC = view as? UIViewController
+        usersVC?.navigationController?.pushViewController(userDetails, animated: true)
     }
     
     
